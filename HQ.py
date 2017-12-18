@@ -1,5 +1,5 @@
 """ HQ.py: Extracts HQ Trivia question and answers text.  
-                Performs online queries of extracted information to predict correct answer."""
+           Performs online queries of extracted information to predict correct answer."""
 
 import requests
 import argparse
