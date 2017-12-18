@@ -1,12 +1,8 @@
-# README #
+# HQ #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### About ###
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This program attempts to predict HQ trivia answers.  An Iphone screen is mirrored to a Mac through Quicktime Player.  The program automatically finds this window, isolates and extracts trivia questions and answers from the window, and performs an online query to predict the correct answer.
 
 ### How do I get set up? ###
 
