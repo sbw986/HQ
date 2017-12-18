@@ -14,7 +14,7 @@ from PIL import Image
 
 def process_query(answer):
 	""" Performs online query of question and answers
-		Predicts correct answer from query return values"""
+	    Predicts correct answer from query return values"""
 
 	query = question + ' ' + '\'' + answer + '\''
 	print('query: ', query)
@@ -61,7 +61,7 @@ def get_window_image():
 	im = ImageGrab.grab(bbox=(x, y+150, x_len+x, y_len+y-200))
 	im = im.convert('L')
 	im = im.point(lambda x: 0 if x<200 else 255, '1')
-	im.save('BW.PNG')
+	#im.save('BW.PNG')
 
 	return im
 
