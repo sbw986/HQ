@@ -1,5 +1,5 @@
 """ HQ.py: Extracts HQ Trivia question and answers text.  
-           Performs online queries of extracted information to predict correct answer."""
+           Performs online queries of extracted information to predict correct answer. """
 
 import requests
 import argparse
@@ -14,7 +14,7 @@ from PIL import Image
 
 def process_query(answer):
 	""" Performs online query of question and answers
-	    Predicts correct answer from query return values"""
+	    Predicts correct answer from query return values """
 
 	query = question + ' ' + '\'' + answer + '\''
 	print('query: ', query)
@@ -47,7 +47,7 @@ def process_query(answer):
 	print(answer, total_return, total_return/ans_return)
 
 def get_window_image():
-	""" Generates black and white image of text area within HQ game window"""
+	""" Generates black and white image of text area within HQ game window """
 
 	#Grab Quicktime Window
 	app = SBApplication.applicationWithBundleIdentifier_("com.apple.QuicktimePlayerX")
@@ -66,7 +66,7 @@ def get_window_image():
 	return im
 
 def img_to_queries(im):
-	"""Converts text image to list of question and answers"""
+	"""Converts text image to list of question and answers """
 
 	tessdata_dir_config = '--tessdata-dir "/usr/local/Cellar/tesseract/3.05.01/share"'
 	text = pytesseract.image_to_string(im, config=tessdata_dir_config)
