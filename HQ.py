@@ -1,4 +1,4 @@
-""" HQ_tess.py: Extracts HQ Trivia question and answers text.  
+""" HQ.py: Extracts HQ Trivia question and answers text.  
                 Performs online queries of extracted information to predict correct answer."""
 
 import requests
