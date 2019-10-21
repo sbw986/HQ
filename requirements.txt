@@ -26,5 +26,5 @@ pyscreenshot==0.4.2
 pytesseract==0.1.7
 requests==2.18.4
 urllib3==1.22
-Werkzeug==0.13
+Werkzeug==0.15.3
 yarg==0.1.9
